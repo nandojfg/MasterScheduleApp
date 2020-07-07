@@ -4,8 +4,7 @@ import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
 const HomeScreen =({navigation}) => {
   return (
-   <Text style={styles.text}>hello</Text>
-   <Text style={styles.text}>basically done</Text>
+   <Text style={styles.text}>hello, another change</Text>
   );
 };
 
