@@ -6,7 +6,7 @@ HEAD
 const HomeScreen = props => {
   return (
     <View>
-   <Text style={styles.text}>HomeScreen Master Schedule App</Text>
+   <Text style={styles.text}>Mel at tacobell</Text>
    <Button 
    onPress = {() => props.navigation.navigate('UserLogin')}
    title= "Enter to welcome page"
