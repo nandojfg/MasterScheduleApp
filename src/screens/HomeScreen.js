@@ -4,7 +4,14 @@ import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
 const HomeScreen =({navigation}) => {
   return (
-   <Text style={styles.text}>sup Alida, this is the first step of our app!</Text>
+    <View>
+   <Text style={styles.text}>This is the home page</Text>
+
+   <Button 
+   onPress = {() => props.navigation.navigate('UserLogin')}
+   title= "Enter to welcome page"
+   />
+   </View>
   );
 };
 
